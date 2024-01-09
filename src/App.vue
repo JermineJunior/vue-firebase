@@ -6,7 +6,7 @@ import NavBar from './views/layout/NavBar.vue'
 <template>
   <main>
    <NavBar />
-    <section class="mt-20 grid items-center justify-center">
+    <section class="grid items-center justify-center">
       <RouterView />
     </section>
   </main>
