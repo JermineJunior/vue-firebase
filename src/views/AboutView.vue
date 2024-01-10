@@ -1,26 +1,26 @@
 <!-- eslint-disable vue/no-duplicate-attributes -->
 <!-- eslint-disable vue/no-parsing-error -->
 <template>
-       <section class="py-10 lg:py-20 bg-stone-100 font-poppins dark:bg-gray-800">
+       <section class="py-6 lg:py-10 bg-base font-poppins text-base-900">
           <div class="w-full py-4 mx-auto lg:py-6 md:px-6">
               <div class="flex flex-wrap ">
                   <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 ">
                       <div class="lg:max-w-md">
-                          <div class="px-4 pl-4 mb-6 border-l-4 border-red-500">
-                              <span class="text-sm text-gray-600 uppercase dark:text-gray-400">Who we are?</span>
-                              <h1 class="mt-2 text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">
+                          <div class="px-4 pl-4 mb-6 border-l-4 border-primary">
+                              <span class="text-sm text-base-800 uppercase ">Who we are?</span>
+                              <h1 class="mt-2 text-3xl font-black text-primary md:text-5xl">
                                   About Us
                               </h1>
                           </div>
-                          <p class="px-4 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
+                          <p class="px-4 mb-10 text-base leading-7 text-base-600">
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit
                               amet.
                           </p>
                           <div class="flex flex-wrap items-center">
                               <div class="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
-                                  <div class="p-6 bg-white dark:bg-gray-900">
-                                      <span class="text-red-500 dark:text-red-400">
+                                  <div class="p-6 bg-base-200">
+                                      <span class="text-primary">
                                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="w-10 h-10"
                                               fill="currentColor" viewBox="0 0 16 16">
                                               <path
@@ -29,14 +29,14 @@
                                                   d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
                                           </svg>
                                       </span>
-                                      <p class="mt-4 mb-2 text-3xl font-bold text-gray-700 dark:text-gray-400">2097
+                                      <p class="mt-4 mb-2 text-3xl font-bold text-secondry">2097
                                       </p>
-                                      <h2 class="text-sm text-gray-700 dark:text-gray-400">Projects and Plans</h2>
+                                      <h2 class="text-sm text-secondry">Projects and Plans</h2>
                                   </div>
                               </div>
                               <div class="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
-                                  <div class="p-6 bg-white dark:bg-gray-900">
-                                      <span class="text-red-500 dark:text-red-400">
+                                  <div class="p-6 bg-base-200">
+                                      <span class="text-primary">
                                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="w-10 h-10"
                                               fill="currentColor"  viewBox="0 0 16 16">
                                               <path
@@ -46,44 +46,44 @@
                                               <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
                                           </svg>
                                       </span>
-                                      <p class="mt-4 mb-2 text-3xl font-bold text-gray-700 dark:text-gray-400">3,590
+                                      <p class="mt-4 mb-2 text-3xl font-bold text-secondry">3,590
                                       </p>
-                                      <h2 class="text-sm text-gray-700 dark:text-gray-400">Helped people</h2>
+                                      <h2 class="text-sm text-secondry">Helped people</h2>
                                   </div>
                               </div>
                               <div class="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
-                                  <div class="p-6 bg-white dark:bg-gray-900">
-                                      <span class="text-red-500 dark:text-red-400">
+                                  <div class="p-6 bg-base-200">
+                                      <span class="text-primary">
                                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="w-10 h-10"
                                               fill="currentColor" viewBox="0 0 16 16">
                                               <path
                                                   d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                                           </svg>
                                       </span>
-                                      <p class="mt-4 mb-2 text-3xl font-bold text-gray-700 dark:text-gray-400">74
+                                      <p class="mt-4 mb-2 text-3xl font-bold text-secondry">74
                                       </p>
-                                      <h2 class="text-sm text-gray-700 dark:text-gray-400">Volunteer</h2>
+                                      <h2 class="text-sm text-secondry">Volunteer</h2>
                                   </div>
                               </div>
                               <div class="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
-                                  <div class="p-6 bg-white dark:bg-gray-900">
-                                      <span class="text-red-500 dark:text-red-400">
+                                  <div class="p-6 bg-base-200">
+                                      <span class="text-primary">
                                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="w-10 h-10"
                                               fill="currentColor"  viewBox="0 0 16 16">
                                               <path
                                                   d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z" />
                                           </svg>
                                       </span>
-                                      <p class="mt-4 mb-2 text-3xl font-bold text-gray-700 dark:text-gray-400">100
+                                      <p class="mt-4 mb-2 text-3xl font-bold text-secondry">100
                                       </p>
-                                      <h2 class="text-sm text-gray-700 dark:text-gray-400">Timing</h2>
+                                      <h2 class="text-sm text-secondry">Timing</h2>
                                   </div>
                               </div>
                           </div>
                       </div>
                   </div>
                   <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-                      <img src="https://i.postimg.cc/9MW8G96J/pexels-the-coach-space-2977565.jpg" alt=""
+                      <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""
                           class="relative z-40 object-cover w-full h-full rounded">
                   </div>
               </div>

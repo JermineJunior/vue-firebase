@@ -11,7 +11,7 @@ import { RouterLink } from 'vue-router';
             class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-primary to-purple-500 lg:inline">building
             a buzz</span> <span>around your product ?</span>
         </h1>
-        <p class="px-0 mb-8 text-lg text-neutral-content md:text-xl lg:px-24">
+        <p class="px-0 mb-8 text-lg text-base-900 md:text-xl lg:px-24">
           Start gaining the traction you've always wanted with our next-level templates and designs. Crafted to help you
           tell your story.
         </p>
