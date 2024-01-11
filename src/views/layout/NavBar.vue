@@ -1,8 +1,8 @@
 <!-- eslint-disable no-unused-vars -->
 <script setup>
 import { RouterLink } from 'vue-router'
-import { getAuth , onAuthStateChanged , signOut } from 'firebase/auth';
-import { ref,onMounted } from 'vue';
+import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
+import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 
 const isLoggedIn = ref(false)
@@ -11,8 +11,8 @@ const router = useRouter()
 
 onMounted(() => {
   auth = getAuth()
-  onAuthStateChanged(auth , (user) => {
-    if(user) {
+  onAuthStateChanged(auth, (user) => {
+    if (user) {
       isLoggedIn.value = true
     }
     else {
@@ -22,9 +22,9 @@ onMounted(() => {
 })
 
 const handleLogOut = () => {
-     signOut(auth).then(() => {
-       router.push('/')
-     })
+  signOut(auth).then(() => {
+    router.push('/')
+  })
 }
 </script>
 <template>
@@ -64,16 +64,19 @@ const handleLogOut = () => {
           </svg>
 
           <!-- moon icon -->
-          <svg class="swap-off fill-current w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path
-              d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="swap-off  w-8 h-8">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
           </svg>
+
 
         </label>
         <button class='btn btn-outline px-4 bg-base text-base-900' v-show="!isLoggedIn">
           <RouterLink class="my-2" to="/login">Sign In</RouterLink>
         </button>
-        <button class='btn btn-outline px-4 bg-base text-base-900 ml-3 inline-flex' @click="handleLogOut" v-show="isLoggedIn">
+        <button class='btn btn-outline px-4 bg-base text-base-900 ml-3 inline-flex' @click="handleLogOut"
+          v-show="isLoggedIn">
           <span>
             Logout
           </span>
