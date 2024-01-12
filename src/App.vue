@@ -21,6 +21,9 @@ import NavBar from './views/layout/NavBar.vue'
                 class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Default" value="dark" />
             </li>
             <li><input type="radio" name="theme-dropdown"
+                      class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="light"
+                      value="light" /></li>
+            <li><input type="radio" name="theme-dropdown"
                 class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Retro" value="retro" />
             </li>
             <li><input type="radio" name="theme-dropdown"
@@ -36,8 +39,17 @@ import NavBar from './views/layout/NavBar.vue'
                 class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="synthwave"
                 value="synthwave" /></li>
             <li><input type="radio" name="theme-dropdown"
-                class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="luxury"
-                value="luxury" /></li>
+                class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="dracula"
+                value="dracula" /></li>
+            <li><input type="radio" name="theme-dropdown"
+                class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="coffee"
+                value="coffee" /></li>
+            <li><input type="radio" name="theme-dropdown"
+                  class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="dim"
+                  value="dim" /></li>
+            <li><input type="radio" name="theme-dropdown"
+                    class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="lemonade"
+                    value="lemonade" /></li>
           </ul>
         </div>
       </div>
